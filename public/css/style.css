@@ -1,0 +1,118 @@
+* {
+    font-family: Aria;
+}
+
+body {
+    background: #e5e5e5 !important;
+}
+
+.header {
+    height: auto;
+}
+
+.header-row-1 {
+    padding-top: 32px;
+}
+
+.header-row-1 .right-row-1 {
+    padding-bottom: 30px;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
+}
+
+.header .header-row-1 h1 {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 43pt;
+}
+
+.header .header-social-icon {
+    display: inline-block;
+    background: rgb(255, 255, 255, .1);
+    align-items: center;
+    width: 26px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.header .header-social-icon img {
+    margin: 6px 0 6px 0;
+}
+
+@media (min-width:900px) {
+    .header .header-row-1 ul {
+        margin-left: -72px;
+        padding-top: 10px;
+    }
+}
+
+.header .header-row-1 li {
+    color: white;
+    display: inline;
+    margin-right: 20px;
+}
+
+.header-row-2 {
+    margin-top: 40px;
+}
+
+.header-row-2 h2 {
+    color: white;
+    padding-bottom: 5px;
+}
+
+.header-row-2 .box {
+    background: rgb(255, 255, 255, .1);
+    display: inline-block;
+    height: 35px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.header-row-2 .box p {
+    color: white;
+    padding: 0px 12px 0px 12px;
+    margin-top: 3px;
+}
+
+.container-filter {
+    background: white;
+    width: 90%;
+    padding-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    box-shadow: 11px 8px 20px rgba(115, 130, 151, 0.3);
+    position: relative;
+    z-index: 100;
+    top: 35px;
+}
+
+.container-filter .filter {
+    padding-top: 10px;
+    border-right: 1px solid #e5e5e5;
+    height: 100%;
+}
+
+@media (max-width:700px) {
+    .container-filter .filter {
+        border-right: 0;
+    }
+}
+
+.container-filter .filter label {
+    font-weight: bold;
+    color: #3c4858;
+    font-size: 11pt;
+    opacity: .9;
+}
+
+.container-filter .filter select,
+.container-filter .filter input {
+    opacity: .7;
+}
+
+.pad {
+    padding-left: 20px;
+    padding-right: 20px;
+}
