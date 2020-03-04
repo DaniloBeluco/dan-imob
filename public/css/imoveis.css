@@ -1,0 +1,185 @@
+.painel-content h3 {
+    color: #5a5c69;
+}
+
+.dash-items-container {
+    margin-top: 20px;
+}
+
+.container-site {
+    padding: 40px;
+}
+
+.col-imovel {
+    align-items: center;
+    text-align: center;
+    margin-top: 0px;
+    width: 33.3%;
+    min-width: 304px;
+    padding: 10px;
+    display: inline-block;
+}
+
+@media (min-width:850px) and (max-width:1200px) {
+    .col-imovel {
+        width: 33.3%;
+    }
+}
+
+@media (min-width:600px) and (max-width:850px) {
+    .col-imovel {
+        width: 50%;
+    }
+}
+
+@media (min-width:0px) and (max-width:600px) {
+    .col-imovel {
+        width: 100%;
+    }
+}
+
+
+/*@media (max-width:730px) {
+    .col-md-baixo {
+        margin-top: 20px !important;
+    }
+}*/
+
+.imovel-container {
+    width: 100%;
+}
+
+.imovel-foto {
+    width: 100%;
+    height: 56%;
+    background-color: gold;
+}
+
+.imovel-desc {
+    width: 100%;
+    height: 44%;
+}
+
+.desc-container {
+    background: white;
+    padding: 20px 30px 10px 44px;
+    text-align: left;
+}
+
+.desc-container .desc-title {
+    font-weight: bold;
+    font-size: 12pt;
+    font-family: "Montserrat", "Trebuchet MS", serif;
+    color: #3c4c60;
+    margin-top: -8px;
+}
+
+.desc-container .desc-local {
+    margin-top: -14px;
+    color: #94bada;
+    font-family: "Montserrat", "Trebuchet MS", serif;
+    font-size: 10pt;
+}
+
+.desc-container .desc-preco {
+    margin-top: -10px;
+    color: #22cf60;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 12pt;
+    float: left;
+}
+
+.desc-container .desc-tipo {
+    font-family: "Montserrat", "Trebuchet MS", serif;
+    text-transform: uppercase;
+    background: #22cf60;
+    float: left;
+    color: white;
+    font-weight: 50;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-top: -6px;
+    font-size: 10pt;
+}
+
+.desc-container .desc-negocio {
+    font-family: "Montserrat", "Trebuchet MS", serif;
+    text-transform: uppercase;
+    background: #226dcf;
+    float: left;
+    color: white;
+    font-weight: 50;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-top: -6px;
+    font-size: 10pt;
+}
+
+.icon-info {
+    margin-top: -9px;
+    font-family: Arial;
+    font-size: 11pt;
+    color: #3c4c60db;
+}
+
+.icon-info img {
+    margin-right: 10px;
+    margin-top: -6px;
+}
+
+.heig {
+    margin-top: -2px;
+}
+
+.opcoes {
+    margin-top: 21px;
+}
+
+.desc-container .desc-editar {
+    font-family: "Montserrat", "Trebuchet MS", serif;
+    text-transform: uppercase;
+    border: 1px solid rgba(23, 179, 3, 0.973);
+    float: left;
+    color: rgba(23, 179, 3, 0.973);
+    font-weight: 50;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-top: -6px;
+    font-size: 9pt;
+    cursor: pointer;
+}
+
+.desc-container .desc-editar:hover {
+    color: white;
+    background: rgba(23, 179, 3, 0.973);
+}
+
+.desc-container .desc-excluir {
+    font-family: "Montserrat", "Trebuchet MS", serif;
+    text-transform: uppercase;
+    border: 1px solid rgba(255, 0, 0, 0.76);
+    float: left;
+    color: rgba(255, 0, 0, 0.76);
+    font-weight: 50;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-top: -6px;
+    font-size: 9pt;
+    cursor: pointer;
+}
+
+.desc-container .desc-excluir:hover {
+    color: white;
+    background: rgba(255, 0, 0, 0.76);
+}
+
+.act {
+    background: black !important;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #21883887 !important;
+    border: 0 !important;
+}
