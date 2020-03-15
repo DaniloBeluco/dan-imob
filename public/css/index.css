@@ -5,8 +5,20 @@
         .col-imovel {
             align-items: center;
             text-align: center;
-            margin-top: -34px;
+            margin-top: -12px;
             width: 25%;
+            min-width: 304px;
+            padding: 10px;
+            display: inline-block;
+            height: 450px;
+            cursor: pointer;
+        }
+        
+        .col-imovel-page {
+            align-items: center;
+            text-align: center;
+            margin-top: -12px;
+            width: 32%;
             min-width: 304px;
             padding: 10px;
             display: inline-block;
@@ -47,7 +59,7 @@
             width: 100%;
             height: 100%;
             background: rgba(0, 0, 0, 0.603);
-            display: none;
+            opacity: 0;
         }
         
         .imovel-foto-text h5 {
@@ -163,10 +175,15 @@
         }
         
         .residencial-desc {
-            display: none;
+            opacity: 0;
             width: 100%;
             height: 100%;
             background: rgba(0, 0, 0, 0.541);
+            transition: .8s;
+        }
+        
+        .residencial-desc:hover {
+            opacity: 1;
         }
         
         .residencial-title h5 {
@@ -188,4 +205,47 @@
         
         .btn-ver-residencial {
             padding-left: 39px;
+        }
+        
+        .imovel-foto-text {
+            opacity: 0;
+            transition: .8s;
+        }
+        
+        .imovel-foto-text:hover {
+            opacity: 1;
+        }
+        
+        .linha-detalhes {
+            width: 0px;
+            height: 1px;
+            background: white;
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: -5px;
+        }
+        
+        .filtros-content {
+            background: white;
+            width: 90%;
+            margin-left: 30px;
+            border: 1px solid #e5e5e5;
+        }
+        
+        h5.mont-serrat {
+            font-family: "Montserrat", "Trebuchet MS", serif;
+            color: #3c4858;
+            font-size: 12pt;
+        }
+        
+        .mont-serrat {
+            font-family: "Montserrat", "Trebuchet MS", serif;
+        }
+        
+        .margin-radio {
+            margin-bottom: 8px;
+        }
+        
+        .form-check-inline .form-check-input {
+            opacity: .5;
         }

@@ -1,5 +1,6 @@
 .det-title {
-    padding-top: 25%;
+    padding-top: 22%;
+    font-weight: bold;
 }
 
 .det-title h1 {
@@ -8,4 +9,54 @@
 
 .det-local-title {
     color: #ec0505;
+    font-weight: bold;
+}
+
+.det-price h1 {
+    font-family: "Montserrat", "Trebuchet MS", serif;
+    font-weight: bolder;
+    color: #22cf60;
+    margin-top: -10px;
+}
+
+.det-price span {
+    font-family: "Montserrat", "Trebuchet MS", serif;
+    font-weight: bold;
+    font-size: 16pt;
+}
+
+.col-btn-fav button {
+    font-size: 14pt;
+    font-family: "Montserrat", "Trebuchet MS", serif;
+    border: 1px solid #e24929;
+    background-color: transparent;
+    color: #e24929;
+    font-weight: bold;
+    margin-right: 0;
+    margin-top: 20px;
+    float: right;
+}
+
+.col-btn-fav button:hover {
+    transition: .6s;
+    font-size: 14.2pt;
+    font-family: "Montserrat", "Trebuchet MS", serif;
+    border: 1px solid #e24929;
+    background-color: #e24929;
+    color: white;
+    font-weight: bold;
+    margin-right: 0;
+    margin-top: 20px;
+    float: right;
+}
+
+h4.det-icon-desc {
+    font-family: "Montserrat", "Trebuchet MS", serif;
+    margin-top: 3px;
+    color: white;
+    font-size: 16pt;
+}
+
+.local-container {
+    margin-top: 30px;
 }

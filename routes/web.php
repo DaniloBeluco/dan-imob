@@ -2,6 +2,8 @@
 
 Route::get('/', 'IndexController@index')->name('site.index');
 
+Route::get('/imoveis', 'IndexController@imoveisPage')->name('site.imoveis-page');
+
 
 Route::get('/adm-login', function () {
     return view('admin.pages.login');

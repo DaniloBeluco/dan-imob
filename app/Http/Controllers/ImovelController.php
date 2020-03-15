@@ -11,7 +11,7 @@ class ImovelController extends Controller
     public function index()
     {
 
-        $dados_imoveis = Imoveis::paginate(6);
+        $dados_imoveis = Imoveis::join('cidade', 'imoveis.cidade_id', '=', 'cidade.id')->select('imoveis.*','cidade.nome as cidade')->paginate(6);
 
 
 
@@ -147,9 +147,15 @@ class ImovelController extends Controller
     public function show($id)
     {
 
-        $imovel = Imoveis::where('id', $id)->first();
 
+        $imovel = Imoveis::join('cidade', 'imoveis.cidade_id', '=', 'cidade.id')->select('imoveis.*', 'cidade.nome as cidade')->where('imoveis.id', '=', $id)->first();
 
-        return view('site.pages.imovel-detalhes', ['imovel' => $imovel ]);
+        /*     $users = DB::table('users')
+            ->join('contacts', 'users.id', '=', 'contacts.user_id')
+            ->join('orders', 'users.id', '=', 'orders.user_id')
+            ->select('users.*', 'contacts.phone', 'orders.price')
+            ->get();   */
+
+        return view('site.pages.imovel-detalhes', ['imovel' => $imovel]);
     }
 }

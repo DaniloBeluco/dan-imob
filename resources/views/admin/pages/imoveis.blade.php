@@ -39,7 +39,7 @@
                                     <div class="com-md-6">
                                         <div class="desc-tipo">{{ $imovel['tipo']  }}</div>
                                     </div>
-                                    <div class="com-md-6" style="margin-left: 15px;">
+                                    <div class="com-md-6" style="margin-left: 3px;">
                                         <div class="desc-negocio">{{ $imovel['negocio']  }}</div>
                                     </div>
                                 </div>

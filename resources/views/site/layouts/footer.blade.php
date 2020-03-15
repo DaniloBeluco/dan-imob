@@ -8,13 +8,13 @@
             <div class="row py-4 d-flex align-items-center">
 
                 <!-- Grid column -->
-                <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                <div class="col-md-7 col-lg-6 text-center text-md-left mb-4 mb-md-0">
                     <h5 class="mb-0 footer-text">Conecte-se conosco através de nossas redes sociais!</h5>
                 </div>
                 <!-- Grid column -->
 
                 <!-- Grid column -->
-                <div class="col-md-6 col-lg-7 text-center text-md-right">
+                <div class="col-md-4 col-lg-6 text-center text-md-right">
 
                     <!-- Facebook -->
                     <a class="fb-ic" href="#">
